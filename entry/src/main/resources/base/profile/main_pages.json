@@ -1,0 +1,23 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/LoginPage",
+    "pages/Advertising",
+    "views/Mine/MineLike",
+    "views/Mine/MineCollect",
+    "views/Mine/MineInfo",
+    "views/Mine/SetUp",
+    "views/Mine/AboutUS",
+    "views/Home/ArticleInfo",
+    "views/Learn/LearnTarget",
+    "views/Learn/Clock",
+    "views/Learn/LearnContent",
+    "views/Learn/QuestionItem",
+    "views/Learn/LearnTool",
+    "views/Learn/ClockRecord",
+    "views/AI/AIChatAssistant",
+    "views/Message/MessageList",
+    "pages/PrivacyPolicyPage",
+    "pages/UserPolicyPage"
+  ]
+}

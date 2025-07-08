@@ -1,0 +1,55 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\LSY\\.ohos\\config\\default_BaideKnowledgebBase_bJhuhbrKqgMp_Vi8rPJ6y8nju9C2dNo1m5liusd14Zw=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B757CD4A7864AC9DDC6C1884B5D2D37284278F813C3B0017675F0B12C347794DEA1C7D2F0CAE453",
+          "profile": "C:\\Users\\LSY\\.ohos\\config\\default_BaideKnowledgebBase_bJhuhbrKqgMp_Vi8rPJ6y8nju9C2dNo1m5liusd14Zw=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\LSY\\.ohos\\config\\default_BaideKnowledgebBase_bJhuhbrKqgMp_Vi8rPJ6y8nju9C2dNo1m5liusd14Zw=.p12",
+          "storePassword": "0000001B64EC69883DCDCF286C8410FAE9A1563364197DEE6209FDB1DF1ED46016D1F9E901351E4AD486C3"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "5.0.4(16)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
